@@ -1,0 +1,21 @@
+{
+  "name": "todo-cli-migrow",
+  "version": "0.4.1",
+  "description": "A handy app for devs to track to do items within a project/repo. todos saved in a json file within the project",
+  "main": "todo.js",
+  "bin": {
+    "todo": "bin/todo-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "ramda"
+  ],
+  "author": "Michael Growette",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
